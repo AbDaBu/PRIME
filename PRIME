@@ -1,0 +1,56 @@
+What PRIME Is
+
+PRIME is a structural system for stabilizing intent when working with AI. It exists to solve a specific problem: inconsistent results caused by unclear or shifting intent. Rather than focusing on better prompts, PRIME establishes a durable structure that makes intent explicit, reusable, and controllable across interactions, tasks, and modalities.
+
+PRIME is not a prompt format. It is a pre-execution structure that governs how work is defined before any output is generated.
+
+⸻
+
+The PRIME Elements
+	•	Perspective
+Defines the human point of view. It captures priorities, standards, and constraints that determine what “good” looks like in this context.
+	•	Role
+Defines how the AI system should behave. It sets authority, scope, and posture so the system does not default to a generic assistant.
+	•	Intent
+Defines the required outcome. It is not phrasing or wording, but the result that must exist when the task is complete.
+	•	Mandates
+Define non-negotiables. These are constraints and boundaries that must hold regardless of how the task is executed.
+	•	Examples
+Anchor correctness. They show what “right” looks like when words alone are ambiguous, grounding output in concrete reference.
+
+Each element exists whether it is defined or not. PRIME makes them explicit so the system does not guess.
+
+⸻
+
+How PRIME Is Assembled
+
+PRIME is assembled by defining all five elements before execution. Perspective, Role, and Mandates are typically stable and reused across related work. Intent and Examples change as outcomes change.
+
+Once assembled, PRIME remains intact even as wording, prompts, or execution methods vary. For complex work, multiple PRIME structures can be composed and sequenced, each handling a single decision or phase.
+
+The result is consistent, controlled output driven by stable intent rather than repeated prompt revision.
+
+
+⸻
+
+EXAMPLE
+
+Perspective
+A busy professional managing multiple parallel projects, valuing clarity, brevity, and actionable information over narrative detail.
+
+Role
+A professional project coordinator responsible for clear, efficient communication.
+
+Intent
+Obtain a concise status update and identify the next concrete steps.
+
+Mandates
+Professional tone.
+Concise.
+No unnecessary background.
+Under 120 words.
+
+Examples
+Project name.
+Recipient role.
+Last known update date.
